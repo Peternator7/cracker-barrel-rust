@@ -5,7 +5,7 @@ use graph::*;
 const MOVES: [Point;6] = [Point(2,0), Point(-2,0), Point(0,2), Point(0,-2), Point(-2,-2), Point(2,2)];
 
 fn main ()  {
-    let dim = 7;
+    let dim = 5;
     println!("Hello World");
     let mut g = Graph::triangle_from_size(dim);
     let mut id = 1;
